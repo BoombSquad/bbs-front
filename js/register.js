@@ -9,7 +9,7 @@ async function registerUser(){
             "address": $("#txtAddress").val(),
             "documentNumber": $("#txtDocumentNumber").val()
         }
-        fetch("http://localhost:8080/user/create", {
+        fetch("http://192.168.33.11:8079/user/create", {
             method: "POST", 
             headers: {
                 'Content-Type': 'application/json',
